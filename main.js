@@ -20,10 +20,6 @@ async function splashColour(type, button) {
         button.style.backgroundColor = `#FF6161`;
         await sleep(100);
         button.style.backgroundColor = `#FFFFFF`;
-    } else {
-        button.style.backgroundColor = `#B5F5FF`;
-        await sleep(100);
-        button.style.backgroundColor = `#FFFFFF`;
     }
 };
 
