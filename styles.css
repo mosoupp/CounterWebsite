@@ -1,0 +1,61 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+button {
+    width: 80%;
+    height: 50px;
+    margin: 1%;
+    font-size: 2rem;
+    border-radius: 5px;
+    outline: none;
+    border: solid black 3px;
+    background: none;
+    
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(180, 243, 252);
+    transform: scale(1.1);
+}
+
+#counter {
+    padding: 2%;
+    font-size: 5rem;
+
+}
+
+#title {
+    font-size: 3rem;
+    color: rgb(33, 100, 131);
+}
+
+#restore-button {
+    width: 50%;
+}
